@@ -7,7 +7,7 @@ plugins {
 }
 
 val modName = "ExaMod"
-version = "1.0-SNAPSHOT"
+version = "0.0.1"
 group = "dev.topscrech"
 
 repositories {
