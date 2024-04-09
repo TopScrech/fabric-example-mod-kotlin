@@ -7,7 +7,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(TitleScreen.class)
-// Mixins HAVE to be written in java due to constraints in the mixin system.
+// Mixins HAVE to be written in java due to constraints in the mixin system
 public class ExampleMixin {
     @Inject(at = @At("HEAD"), method = "init()V")
     private void init(CallbackInfo info) {
